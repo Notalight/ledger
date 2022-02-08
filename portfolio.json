@@ -1,0 +1,172 @@
+{
+    "id": "4ad73c3d-db35-4f2f-9313-6447909c68e2",
+    "name": "Mon Portfolio",
+    "accounts": [
+        {
+            "id": "af2a15b2-dcc8-4d27-b850-f6a1ba440298",
+            "name": "Credit Agricole - Chris",
+            "account_number": "XXXXXXXXXXX",
+            "type": "Courant",
+            "bank_name": "Credit Agricole",
+            "loans": [
+                {
+                    "loan_number": "00002681303",
+                    "name": "CCHQ 65080290572",
+                    "description": "Prêt Appt. Viry Chatillon",
+                    "pv": -190021,
+                    "rate": 0.0063,
+                    "nper": 120,
+                    "start_date": "2021-7-22"
+                },
+                {
+                    "loan_number": "00002681285",
+                    "name": "CCHQ 65080290262",
+                    "description": "Prêt Appt.  Crépy en Valois",
+                    "pv": -68325,
+                    "rate": 0.0063,
+                    "nper": 96,
+                    "start_date": "2021-8-19"
+                }
+            ]
+        },
+        {
+            "id": "9fe7cb8d-f16e-451c-be74-16f4c7d70f28",
+            "name": "Bourse Direct - PEA",
+            "account_number": "508TI00083401569EUR",
+            "type": "PEA",
+            "bank_name": "Bourse Direct"
+        },
+        {
+            "id": "7354577e-9848-41ff-b505-2ce272a8e83c",
+            "name": "Bourse Direct - Titre",
+            "account_number": "508TI00085561050EUR",
+            "type": "Titre",
+            "bank_name": "Bourse Direct",
+            "stocks": [
+                {
+                    "order_number": "US7437131094",
+                    "name": "PROTO LABS",
+                    "symbol": "PRLB",
+                    "market": "NYSE",
+                    "qty": 20,
+                    "purchase_date": "2022-1-7",
+                    "unit_purchase_price": 51.85,
+                    "purchase_change_rate": 1.130594800,
+                    "currency": "DOLLAR",
+                    "fees": 8.5,
+                    "currency_fees": "EUR"
+                },
+                {
+                    "order_number": "FR0014005HJ9",
+                    "name": "OVH GROUPE",
+                    "symbol": "OVH",
+                    "market": "EURONEXT",
+                    "qty": 35,
+                    "purchase_date": "2022-1-7",
+                    "unit_purchase_price": 26.825,
+                    "currency": "EUR",
+                    "fees": 1.90,
+                    "currency_fees": "EUR"
+                },
+                {
+                    "order_number": "US88554D2053",
+                    "name": "3 D SYS.PROV.REGPT",
+                    "symbol": "DDD",
+                    "market": "NYSE",
+                    "qty": 50,
+                    "purchase_date": "2022-1-7",
+                    "unit_purchase_price": 20.0499,
+                    "purchase_change_rate": 1.130594800,
+                    "currency": "DOLLAR",
+                    "fees": 8.5,
+                    "currency_fees": "EUR"
+                },
+                {
+                    "order_number": "US79466L3024",
+                    "name": "SALESFORCE.COM(NYSE)",
+                    "symbol": "CRM",
+                    "market": "NYSE",
+                    "qty": 5,
+                    "purchase_date": "2022-1-7",
+                    "unit_purchase_price": 226.96,
+                    "purchase_change_rate": 1.130594800,
+                    "currency": "DOLLAR",
+                    "fees": 8.5,
+                    "currency_fees": "EUR"
+                }
+            ]
+        },
+        {
+            "id": "eb75419c-5a46-47e7-a4d9-d13944e5fc12",
+            "name": "BNP Compte Chris",
+            "account_number": "00000313423",
+            "type": "Courant",
+            "bank_name": "BNP Paribas"
+        },
+        {
+            "id": "2a12f5a5-49f0-4fd7-9228-f327a5432d50",
+            "name": "BNP Compte Commun",
+            "account_number": "00000313326",
+            "type": "Courant",
+            "bank_name": "BNP Paribas"
+        },
+        {
+            "id": "6e617301-0bc4-4987-8398-f6a98a7d765a",
+            "name": "AXA Compte Chris",
+            "account_number": "033832470 41",
+            "type": "Courant",
+            "bank_name": "AXA Banque"
+        },
+        {
+            "id": "3ae2de27-b86a-40aa-bc58-48d9001b167d",
+            "name": "AXA Compte Commun",
+            "account_number": "033832470 40",
+            "type": "Courant",
+            "bank_name": "AXA Banque",
+            "loans": [
+                {
+                    "loan_number": "AX05899559",
+                    "name": "0001338324701 ALTIMO FIX",
+                    "description": "Prêt Maison principale",
+                    "pv": -67190.45,
+                    "rate": 0.0115,
+                    "nper": 66,
+                    "start_date": "2021-2-5"
+                }
+            ]
+        },
+        {
+            "id": "2702b680-7032-4182-8d3d-d16d4e0d6934",
+            "name": "Morgan Stanley",
+            "account_number": "MS-283777-67",
+            "type": "Titre",
+            "bank_name": "Morgan Stanley"
+        }
+    ],
+    "assets": [
+        {
+            "name": "Appt Crépy",
+            "description": "Appt Crépy",
+            "type": "appt",
+            "acquisition_price": 110000,
+            "acquisition_date": "2017-7-1",
+            "estimation_price": 130000
+        },
+        {
+            "name": "Maison Igny",
+            "description": "Maison Igny",
+            "type": "maison",
+            "acquisition_price": 740000,
+            "acquisition_date": "2017-7-1",
+            "estimation_price": 950000
+        },
+        {
+            "name": "Appt Viry",
+            "description": "Appt Viry",
+            "type": "appt",
+            "acquisition_price": 210000,
+            "acquisition_date": "2021-7-1",
+            "estimation_price": 210000
+        }
+    ]
+}
